@@ -8,5 +8,6 @@ public class mileToKilometer {
         int mile = read.nextInt();
         double km = 1.60 * mile;
         System.out.println(km);
+        System.out.println();
     }
 }
