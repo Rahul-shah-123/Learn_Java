@@ -4,15 +4,20 @@ import java.util.Scanner;
 
 public class Problems01 {
     public static void main(String[] args) {
-     Scanner ss = new Scanner(System.in);
-     System.out.print("Please Entry you order here = ");
-     int x = ss.nextInt();
-     if(x <= 70){
-         System.out.println("Order Confirmed");
-     }else{
-         System.out.println("Order Limit Reached");
-     }
-        System.out.println("Thank YOU!!");
+        Scanner sc = new Scanner(System.in);
+        // Take all inputs
+        String s = sc.nextLine();
+        int a = sc.nextInt();
+        float b = sc.nextFloat();
+        long c = sc.nextLong();
+        byte d = sc.nextByte();
+
+        // Print all the values
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(s);
 
     }
 }
