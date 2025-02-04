@@ -4,12 +4,14 @@ import java.util.Scanner;
 
 public class Factorial {
     public static void main(String[] args){
-        Scanner scan = new Scanner(System.in);
-        int num = scan.nextInt();
-        int factorial = 1;
-        for (int i = 1; i <= num; i++){
-            factorial *= i;
+        Scanner read = new Scanner(System.in);
+        int num = read.nextInt();
+        int fact = 1;
+        int i = 1;
+        while(i <= num){
+            fact = fact * i;
+            i++;
         }
-        System.out.println(factorial);
+        System.out.println(fact);
     }
 }
