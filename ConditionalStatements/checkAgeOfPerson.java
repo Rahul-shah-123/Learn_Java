@@ -14,5 +14,11 @@ public class checkAgeOfPerson {
             System.out.println("You are not yet eligible to vote!!");
         }
        ss.close();
+        System.out.println(Byte.MIN_VALUE);
+        System.out.println(Byte.MAX_VALUE);
+
+
+
     }
+
 }
