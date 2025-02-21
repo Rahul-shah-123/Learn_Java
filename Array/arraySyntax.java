@@ -10,6 +10,7 @@ public class arraySyntax {
         arr[1] = 23;
 //        System.out.println(Arrays.stream(arr).limit(1).collect(Collectors.counting(2)));
         System.out.println(arr.length);
+
         
     }
 }
