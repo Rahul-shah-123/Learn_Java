@@ -3,8 +3,11 @@ package OOPS;
 public class Main {
     public static void main(String[] args) {
         Car car = new Car();
-        int limit = car.speed = 250;
-        System.out.println(limit);
+        car.setDoors("close");
+        car.setDriver("ready");
+        car.setEngine("off");
+        car.setSpeed(10);
+        System.out.println(car.run());
 
     }
 }
