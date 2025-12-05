@@ -8,6 +8,20 @@ public class Car {
     private String engine;
     private String driver;
 
+    public Car() {
+        speed = 10;
+        doors = "close";
+        engine = "off";
+        driver = "ready";
+    }
+
+    public Car(int speed, String doors, String engine, String driver) {
+        this.speed = speed;
+        this.doors = doors;
+        this.engine = engine;
+        this.driver = driver;
+    }
+
     public int getSpeed() {
         return speed;
     }

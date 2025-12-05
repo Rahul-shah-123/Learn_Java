@@ -1,13 +1,10 @@
 package OOPS;
 
+import OOPS.Inheritance.vehicles.Bike;
+
 public class Main {
     public static void main(String[] args) {
-        Car car = new Car();
-        car.setDoors("close");
-        car.setDriver("ready");
-        car.setEngine("off");
-        car.setSpeed(10);
-        System.out.println(car.run());
-
+        Bike bike = new Bike("on",2,21,"LED","Short");
+        System.out.println(bike.run());
     }
 }
